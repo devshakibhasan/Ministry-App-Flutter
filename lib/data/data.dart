@@ -13,7 +13,6 @@ class Mydata {
       "Ministry5": "মহিলা ও শিশু বিষয়ক মন্ত্রণালয়",
       "Ministry6": "ক) সড়ক পরিবহণ ও মহাসড়ক বিভাগ",
       "Ministry7": "খ) সেতু বিভাগ",
-      
     },
     {
       "id": "1",
@@ -214,98 +213,91 @@ class Mydata {
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/MJH.png",
       "name": "মোঃ জাকির হোসেন",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/MSA.png",
       "name": "মোঃ শাহরিয়ার আলম",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "পররাষ্ট্র মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/JAP.png",
       "name": "জুনাইদ আহ্‌মেদ পলক",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "ডাক, টেলিযোগাযোগ ও তথ্য প্রযুক্তি মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/FH.png",
       "name": "ফরহাদ হোসেন",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "জনপ্রশাসন মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/SV.png",
       "name": "স্বপন ভট্টাচার্য্য",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/JF.png",
       "name": "জাহিদ ফারুক",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "পানি সম্পদ মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
-      "name": "ডা. মোঃ মুরাদ হাসান",
-      "positin": "প্রতিমন্ত্রী",
-      "Ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
-    },
-
-    {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/SA.png",
       "name": "শরীফ আহমেদ",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "গৃহায়ন ও গণপূর্ত মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/KMK.png",
       "name": "কে এম খালিদ",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "সংস্কৃতি বিষয়ক মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/DMAR.png",
       "name": "ডা. মোঃ এনামুর রহমান",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "দুর্যোগ ব্যবস্থাপনা ও ত্রাণ মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/MMA.png",
       "name": "মোঃ মাহবুব আলী",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "বেসামরিক বিমান পরিবহণ ও পর্যটন মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/MFHK.png",
       "name": "মোঃ ফরিদুল হক খান",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "ধর্ম বিষয়ক মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/FN.png",
       "name": "ফজিলাতুন নেসা",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "মহিলা ও শিশু বিষয়ক মন্ত্রণালয়",
     },
 
     {
-      "img": "assets/images/AHMMK.png",
+      "img": "assets/images/DSA.png",
       "name": "ড. শামসুল আলম",
       "positin": "প্রতিমন্ত্রী",
       "Ministry": "পরিকল্পনা মন্ত্রণালয়",

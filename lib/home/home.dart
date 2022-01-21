@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:ministry_information_app/home/drawer.dart';
 import 'package:ministry_information_app/home/slider.dart';
 import 'drawer.dart';
-import 'test.dart';
+import 'body.dart';
 
 class MyHomePage extends StatefulWidget {
   

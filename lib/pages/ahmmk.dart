@@ -6,19 +6,18 @@ import 'package:ministry_information_app/home/home.dart';
 import '/data/data.dart';
 import '/data/data3.dart';
 
-class CardLayout2 extends StatefulWidget {
-  const CardLayout2({Key? key}) : super(key: key);
+class CardLayout7 extends StatefulWidget {
+  const CardLayout7({Key? key}) : super(key: key);
 
   @override
-  _CardLayout2State createState() => _CardLayout2State();
+  _CardLayout7State createState() => _CardLayout7State();
 }
 
 List<Map> List_of_data = Mydata().data;
 List<Map> List_of_data1 = Mydata3().data3;
-int index = 12;
-// int index1 = 12;
+int index = 4;
 int i = 0;
-String dropdownValue = 'সড়ক পরিবহণ ও সেতু মন্ত্রণালয়';
+String dropdownValue = 'মন্ত্রিপরিষদ বিভাগ';
 
 Widget buildCardImage = Container(
   margin: EdgeInsets.only(right: 0.0),
@@ -27,7 +26,7 @@ Widget buildCardImage = Container(
   decoration: BoxDecoration(
     image: DecorationImage(
       fit: BoxFit.cover,
-      image: AssetImage("${List_of_data[i + 2]['img']}"),
+      image: AssetImage("${List_of_data[i + 7]['img']}"),
     ),
   ),
 );
@@ -57,7 +56,7 @@ Widget buildCardExhibitor =
         width: 25.0,
       ),
       Text(
-        "${List_of_data[i + 2]['name']}",
+        "${List_of_data[i + 7]['name']}",
         style: TextStyle(
           color: Color(0xffEDEE62),
           fontWeight: FontWeight.bold,
@@ -96,7 +95,7 @@ Widget buildCardIndustry = Padding(
           width: 15.0,
         ),
         Text(
-          '${List_of_data[i + 2]['positin']}',
+          '${List_of_data[i + 7]['positin']}',
           style: TextStyle(
             color: Color(0xffEDEE62),
             fontWeight: FontWeight.bold,
@@ -135,39 +134,14 @@ Widget buildCardIndusry = Padding(
             ),
           ),
         ),
-        DropdownButton<String>(
-          borderRadius: BorderRadius.circular(8.0),
-          dropdownColor: Colors.green,
-          value: dropdownValue,
-          icon: const Icon(
-            Icons.arrow_downward,
-            color: Colors.red,
+        Container(
+          child: Text(
+            '${List_of_data[i + 7]['Ministry']}',
+            style: TextStyle(
+              color: Color(0xffEDEE62),
+              fontSize: 20.0,
+            ),
           ),
-          iconSize: 24,
-          elevation: 20,
-          style: const TextStyle(
-            color: Color(0xffEDEE62),
-            fontSize: 15.0,
-          ),
-          underline: Container(
-            height: 3,
-            color: Colors.white,
-          ),
-          onChanged: (String? newValue) {
-            setState(() {
-              dropdownValue = newValue!;
-            });
-          },
-          items: <String>[
-            '${List_of_data[i + 2]['Ministry']}',
-            '${List_of_data[i]['Ministry6']}',
-            '${List_of_data[i]['Ministry7']}',
-          ].map<DropdownMenuItem<String>>((String value) {
-            return DropdownMenuItem<String>(
-              value: value,
-              child: Text(value),
-            );
-          }).toList(),
         ),
       ],
     ),
@@ -176,14 +150,14 @@ Widget buildCardIndusry = Padding(
 
 void setState(Null Function() param0) {}
 
-class _CardLayout2State extends State<CardLayout2> {
+class _CardLayout7State extends State<CardLayout7> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "${List_of_data[i + 2]['name']}",
+          "${List_of_data[i + 7]['name']}",
         ),
         backgroundColor: Colors.green.shade600,
         leading: Builder(
@@ -238,9 +212,7 @@ class _CardLayout2State extends State<CardLayout2> {
             ),
             Expanded(
               child: Container(
-                height: 50.0,
                 child: ListView.builder(
-                  physics: NeverScrollableScrollPhysics(),
                     itemCount: index,
                     itemBuilder: (BuildContext context, int index) {
                       return Card(
@@ -254,7 +226,7 @@ class _CardLayout2State extends State<CardLayout2> {
                             ),
                           ),
                           title: Text(
-                            "${List_of_data1[index + 12]['text']}",
+                            "${List_of_data1[index + 32]['text']}",
                             style: TextStyle(
                               color: Color(0xffEDEE62),
                               fontWeight: FontWeight.bold,

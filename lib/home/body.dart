@@ -25,7 +25,7 @@ class _MyHomePage1State extends State<MyHomePage1> {
           appBar: AppBar(
             backgroundColor: Colors.green.shade600,
             centerTitle: true,
-            leading: Icon(Icons.person_outline),
+            leading: Icon(Icons.person_outline, color: Colors.green,),
             title: Padding(
               padding: const EdgeInsets.all(10.0),
               child: Text(

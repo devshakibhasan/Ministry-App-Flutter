@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ministry_information_app/data/data.dart';
 import 'package:ministry_information_app/home/mygrid2.dart';
-import 'package:ministry_information_app/home/test.dart';
+import 'package:ministry_information_app/home/body.dart';
 import '/data/data.dart';
 import '/data/data2.dart';
 import '/home/mygrid.dart';

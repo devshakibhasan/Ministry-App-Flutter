@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ministry_information_app/home/About.dart';
 import 'package:ministry_information_app/pages/montri.dart';
 import 'package:ministry_information_app/pages/protimontri.dart';
 import 'package:ministry_information_app/pages/upmontri.dart';
@@ -87,6 +88,23 @@ class drawer extends StatelessWidget {
                   onTap: () {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) => MyHomePage3()));
+                  },
+                ),
+              ),
+              Card(
+                color: Colors.green,
+                child: ListTile(
+                  title: const Text(
+                    'About Me',
+                    style: TextStyle(
+                      color: Color(0xffEDEE62),
+                      fontWeight: FontWeight.bold,
+                      fontSize: 30.0,
+                    ),
+                  ),
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => AboutPage()));
                   },
                 ),
               ),

@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:ministry_information_app/pages/AJK.dart';
+import 'package:ministry_information_app/pages/DMAR.dart';
 import 'package:ministry_information_app/pages/OK.dart';
+import 'package:ministry_information_app/pages/ah.dart';
+import 'package:ministry_information_app/pages/ahmmk.dart';
+import 'package:ministry_information_app/pages/akam.dart';
 
 import 'package:ministry_information_app/pages/akmh.dart';
+import 'package:ministry_information_app/pages/dm.dart';
+import 'package:ministry_information_app/pages/hm.dart';
+import 'package:ministry_information_app/pages/mam.dart';
 import 'package:ministry_information_app/pages/seikhhasina.dart';
 import '/data/data.dart';
 
@@ -13,7 +21,6 @@ class MyGrid extends StatelessWidget {
     int i = 0;
 
     return GridView.count(
-
       primary: false,
       padding: const EdgeInsets.only(bottom: 35, top: 15.0),
       crossAxisSpacing: 7,
@@ -69,10 +76,8 @@ class MyGrid extends StatelessWidget {
         ),
         GestureDetector(
           onTap: () {
-            Navigator.push(
-                context, MaterialPageRoute(builder: (context) => CardLayout1(
-                 
-                )));
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => CardLayout1()));
           },
           child: Column(
             children: [
@@ -118,8 +123,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
-          onTap: (){
-             Navigator.push(context,
+          onTap: () {
+            Navigator.push(context,
                 MaterialPageRoute(builder: (context) => CardLayout2()));
           },
           child: Column(
@@ -169,6 +174,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
+          onTap: () => Navigator.push(
+              context, MaterialPageRoute(builder: (context) => CardLayout3())),
           child: Column(
             children: [
               Container(
@@ -213,6 +220,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
+          onTap: () => Navigator.push(
+              context, MaterialPageRoute(builder: (context) => CardLayout4())),
           child: Column(
             children: [
               Container(
@@ -257,6 +266,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
+          onTap: () => Navigator.push(
+              context, MaterialPageRoute(builder: (context) => CardLayout5())),
           child: Column(
             children: [
               Container(
@@ -301,7 +312,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
-          onTap: () {},
+          onTap: () => Navigator.push(
+              context, MaterialPageRoute(builder: (context) => CardLayout6())),
           child: SizedBox(
             height: 120.0,
             child: Column(
@@ -349,6 +361,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
+          onTap: () => Navigator.push(
+              context, MaterialPageRoute(builder: (context) => CardLayout7())),
           child: SizedBox(
             height: 120.0,
             child: Column(
@@ -396,6 +410,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
+          onTap: () => Navigator.push(
+              context, MaterialPageRoute(builder: (context) => CardLayout8())),
           child: SizedBox(
             height: 100.0,
             child: Column(
@@ -443,6 +459,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
+          onTap: () => Navigator.push(
+              context, MaterialPageRoute(builder: (context) => CardLayout9())),
           child: SizedBox(
             height: 100.0,
             child: Column(
@@ -490,6 +508,8 @@ class MyGrid extends StatelessWidget {
           ),
         ),
         GestureDetector(
+           onTap: () => Navigator.push(
+              context, MaterialPageRoute(builder: (context) => CardLayout10())),
           child: SizedBox(
             height: 100.0,
             child: Column(
@@ -1146,9 +1166,8 @@ class MyGrid extends StatelessWidget {
               ],
             ),
           ),
-          
         ),
-                GestureDetector(
+        GestureDetector(
           child: SizedBox(
             height: 100.0,
             child: Column(
